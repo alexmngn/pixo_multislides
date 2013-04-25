@@ -76,7 +76,7 @@ $('div#multislides').pixo_multislides('swipe', [true]);
 var options = {
 	debug: false,						// Enable/disable debug traces
 	pages: {
-		desktop: {						// Desktop size correspond to a screen width size over 1024px
+		desktop: {						// Desktop size correspond to a screen width size "tablet" +1
 			autoPlay: {					// Autoplay multislides with delay between pages
 				enable: false,
 				delay: 5000
@@ -88,7 +88,7 @@ var options = {
 				enable: true
 			}
 		},
-		tablet: {						// Tablet size correspond to a screen width size between 1024px and 481px
+		tablet: {						// Tablet size correspond to a screen width size between "tablet" and "mobile" +1
 			autoPlay: {
 				enable: false,
 				delay: 5000
@@ -100,7 +100,7 @@ var options = {
 				enable: true
 			}
 		},
-		mobile: {						// Mobile size correspond to a screen width size equal or under 480px
+		mobile: {						// Mobile size correspond to a screen width equal or under the size "mobile"
 			autoPlay: {
 				enable: false,
 				delay: 5000
@@ -132,7 +132,7 @@ $('div#multislides').pixo_multislides(options);
 
 ## Issues
 
-* Swipe plugin doesn't work on touch devices if the item on which your start the swipe is a link.
+* Swipe plugin doesn't work on touch devices if the item on which you start the swipe is a link.
 
 ## Licensing
 

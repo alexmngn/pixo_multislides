@@ -445,9 +445,9 @@
 		
 	var defaultOptions = {
 		
-		debug: false,
+		debug: false,						// Enable/disable debug traces
 		pages: {
-			desktop: {						// Desktop size correspond to a screen width size over 1024px
+			desktop: {						// Desktop size correspond to a screen width size "tablet" +1
 				autoPlay: {					// Autoplay multislides with delay between pages
 					enable: false,
 					delay: 5000
@@ -459,7 +459,7 @@
 					enable: true
 				}
 			},
-			tablet: {						// Tablet size correspond to a screen width size between 1024px and 481px
+			tablet: {						// Tablet size correspond to a screen width size between "tablet" and "mobile" +1
 				autoPlay: {
 					enable: false,
 					delay: 5000
@@ -471,7 +471,7 @@
 					enable: true
 				}
 			},
-			mobile: {						// Mobile size correspond to a screen width size equal or under 480px
+			mobile: {						// Mobile size correspond to a screen width equal or under the size "mobile"
 				autoPlay: {
 					enable: false,
 					delay: 5000
