@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0; user-scalable=no">
+		<link rel="stylesheet" type="text/css" media="screen" href="css/pixo.multislides.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="multislides">
+				<ul>
+					<li><a href="http://www.flickr.com/photos/alex_hanoko/8675364814/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8530/8675364814_4aa31198cb.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/mojo2u/8676294214/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8120/8676294214_c69f6839f3.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/87535320@N02/8674855497/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8405/8674855497_4f0b9a28fa.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/41460120@N04/8674240409/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8264/8674240409_068e4430ca.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/38181364@N03/8674540557/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8117/8674540557_c80132e7ee.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/chomchomp/8674350373/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8388/8674350373_56a7a960e6.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/kennethverburg/8676178778/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8527/8676178778_3ccd82d0ee.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/lakota41/8677262592/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8537/8677262592_7e356d0e03.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/mojo2u/8676294214/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8537/8675272628_04b3097901.jpg)"></a></li>
+					<li><a href="http://www.flickr.com/photos/50949097@N00/8674940669/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8393/8674940669_595818f4a1.jpg)"></a></li>
+				</ul>
+			</div>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.touchswipe.js"></script>
+		<script type="text/javascript" src="js/pixo.multislides.js?123"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('div#multislides').css('display', 'block').pixo_multislides({
+					slides: {
+						minWidth: 230,
+						maxDisplayed: 4
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
