@@ -8,7 +8,27 @@
 	</head>
 	<body>
 		<div id="wrapper">
+			<h1>Default multislides</h1>
 			<div id="multislides">
+				<ul>
+					<li style="background-image: url(http://farm9.staticflickr.com/8530/8675364814_4aa31198cb.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8120/8676294214_c69f6839f3.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8405/8674855497_4f0b9a28fa.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8264/8674240409_068e4430ca.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8117/8674540557_c80132e7ee.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8388/8674350373_56a7a960e6.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8527/8676178778_3ccd82d0ee.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8537/8677262592_7e356d0e03.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8537/8675272628_04b3097901.jpg)"></li>
+					<li style="background-image: url(http://farm9.staticflickr.com/8393/8674940669_595818f4a1.jpg)"></li>
+				</ul>
+			</div>
+			
+			<hr />
+			
+			<h1>Multislides with links</h1>
+			<h2>Options: minimum slides width 150px, maximum slides displayed 6</h2>
+			<div id="multislides2">
 				<ul>
 					<li><a href="http://www.flickr.com/photos/alex_hanoko/8675364814/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8530/8675364814_4aa31198cb.jpg)"></a></li>
 					<li><a href="http://www.flickr.com/photos/mojo2u/8676294214/" target="_blank" style="background-image: url(http://farm9.staticflickr.com/8120/8676294214_c69f6839f3.jpg)"></a></li>
@@ -25,13 +45,15 @@
 		</div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.touchswipe.min.js"></script>
-		<script type="text/javascript" src="js/pixo.multislides.min.js"></script>
+		<script type="text/javascript" src="js/pixo.multislides.js"></script>
 		<script type="text/javascript">
 			$(function() {
-				$('div#multislides').css('display', 'block').pixo_multislides({
+				$('div#multislides').css('display', 'block').pixo_multislides();
+				
+				$('div#multislides2').css('display', 'block').pixo_multislides({
 					slides: {
-						minWidth: 230,
-						maxDisplayed: 4
+						minWidth: 150,
+						maxDisplayed: 6
 					}
 				});
 			});

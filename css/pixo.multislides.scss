@@ -5,7 +5,14 @@
 $desktop-max-width: 1220px;
 
 body {
-  background: #000;
+	background: #000;
+	color: #ddd;
+	font-family: Arial;
+	font-size: 0.7em;
+}
+
+h1 {
+	
 }
 
 #wrapper {
@@ -13,12 +20,12 @@ body {
 	width: $desktop-max-width;
 }
 
-#multislides {
+#multislides,
+#multislides2 {
 	display: none;
 }
 
 @media all and (max-width: $desktop-max-width - 1px) {
-	
 	#wrapper {
 		width: 100%;
 	}
@@ -69,6 +76,8 @@ $pixo_multislides_nav_height: 30px;
 		z-index: 1;
 		
 		li {
+			background-position: center;
+			background-repeat: no-repeat;
 			border: 1px solid #373737;
 			display: inline-block;
 			height: $pixo_multislides_height - 2;

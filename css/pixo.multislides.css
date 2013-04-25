@@ -3,6 +3,9 @@
 -------------------------------------------------------- */
 body {
   background: #000;
+  color: #ddd;
+  font-family: Arial;
+  font-size: 0.7em;
 }
 
 #wrapper {
@@ -10,7 +13,8 @@ body {
   width: 1220px;
 }
 
-#multislides {
+#multislides,
+#multislides2 {
   display: none;
 }
 
@@ -56,6 +60,8 @@ body {
   z-index: 1;
 }
 .pixo_multislides ul li {
+  background-position: center;
+  background-repeat: no-repeat;
   border: 1px solid #373737;
   display: inline-block;
   height: 278px;

@@ -120,7 +120,7 @@ var options = {
 		minWidth: 230,				// Minimum width for a slide
 		maxDisplayed: 4				// Maximum slides per page
 	},
-	size: {							// Define devices size to trigger changes coming from pages parameters
+	size: {							// Define device sizes to trigger changes coming from page parameters
 		tablet: 1024,
 		mobile: 480
 	}

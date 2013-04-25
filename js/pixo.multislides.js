@@ -46,8 +46,8 @@
 		 */
 		
 		var init = function() {
+			options = $.extend(true, {}, defaultOptions, options);			
 			debug('Pixo Multislides: init()');
-			options = $.extend(true, defaultOptions, options);
 
 			if (!pixo.$el.hasClass(vars.plugin)) {
 				pixo.$el.addClass(vars.plugin);
