@@ -3,6 +3,9 @@ A slider/carousel system allowing user to place more than one slide per page.
 This plugin is responsive and suits for desktop, tablet and mobile devices.
 The width of slides fit to the container.
 
+Example available here:
+http://git.pixostudio.net/pixo_multislides/
+
 ## Compatibility
 
 ### jQuery libraries

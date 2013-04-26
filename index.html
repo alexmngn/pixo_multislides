@@ -51,6 +51,13 @@
 				$('div#multislides').css('display', 'block').pixo_multislides();
 				
 				$('div#multislides2').css('display', 'block').pixo_multislides({
+					pages: {
+						mobile: {
+							navigation: {
+								enable: true
+							}
+						}	
+					},
 					slides: {
 						minWidth: 150,
 						maxDisplayed: 6
