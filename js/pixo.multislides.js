@@ -288,7 +288,7 @@
 				vars.slides.array[key].width(Math.round(100/slides)-2+'%');
 				ul.append(vars.slides.array[key]);
 
-				if (key != 0 && (((key+1) % slides) === 0 || (key+1) === vars.slides.array.length)) {
+				if ((((key+1) % slides) === 0 || (key+1) === vars.slides.array.length)) {
 					ul.css('left','0px').css('display', 'block').appendTo(pixo.$el);
 					vars.pages.array.push(ul);
 					if (vars.pages.array.length-1 != vars.pages.current) {
